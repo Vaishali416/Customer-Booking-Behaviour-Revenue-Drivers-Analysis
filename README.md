@@ -16,7 +16,7 @@ Which markets and countries drive the most demand and cancellation risk?
 
 PropertyDetailFilehotel_bookings.csvRecords119,390 bookingsFeatures32 variablesPeriod2015 – 2017Hotel TypesCity Hotel, Resort Hotel
 Key variable groups: booking logistics, guest demographics, room/rate details, and reservation outcomes (is_canceled as the primary target).
-Data quality: company (94% missing) and agent (14% missing) were dropped. Remaining nulls removed via listwise deletion. One ADR outlier (> 5,000) removed. Final working dataset: ~118,898 records.
+Data quality: company (94% missing) and agent (14% missing) were dropped. Remaining nulls removed via listwise deletion. One ADR outlier (> 5,000) removed. Final working dataset: 118,898 records.
 
 # Methodology
 
@@ -29,7 +29,7 @@ Geographic & Segmentation Analysis — top 10 cancelling countries (pie chart), 
 
 # Key Findings
 
-~37% of bookings are cancelled — a major revenue risk
+37% of bookings are cancelled — a major revenue risk
 City Hotel cancels at nearly 2× the Resort Hotel rate — driven by transient corporate and OTA bookings
 ADR peaks mid-year (July–August), especially for Resort Hotel; cancelled bookings cluster at higher ADR values
 Portugal (PRT) accounts for the largest share of cancellations by country
@@ -38,4 +38,4 @@ August is the peak month for both bookings and cancellations — the most operat
 
 
 # Managerial Implications
-RecommendationRationaleEnforce deposit requirements on OTA bookingsOTAs drive ~74% of cancellations; deposits reduce speculative bookingsApply dynamic overbooking at City HotelNear-2× cancellation rate means rooms regularly go empty post-cancellationRaise prices in July–August (especially Resort)ADR analysis reveals under-pricing during peak demand periodsInvestigate Portuguese guest behaviourOutsized domestic cancellation share warrants targeted retention effortsIncentivise direct bookingsDirect channel has the lowest cancellation rate (4%) and no OTA commissionMonitor ADR vs. cancellation correlationHigher-ADR bookings cancel more — rate parity management is essential
+RecommendationRationaleEnforce deposit requirements on OTA bookingsOTAs drive 74% of cancellations; deposits reduce speculative bookingsApply dynamic overbooking at City HotelNear-2× cancellation rate means rooms regularly go empty post-cancellationRaise prices in July–August (especially Resort)ADR analysis reveals under-pricing during peak demand periodsInvestigate Portuguese guest behaviourOutsized domestic cancellation share warrants targeted retention effortsIncentivise direct bookingsDirect channel has the lowest cancellation rate (4%) and no OTA commissionMonitor ADR vs. cancellation correlationHigher-ADR bookings cancel more — rate parity management is essential
